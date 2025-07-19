@@ -51,3 +51,25 @@
     display: flex;
     gap: var(--gap-l);
 }
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .nav__list
+    {
+        row-gap: var(--gap-1);
+        gap: var(--gap-s);
+    }
+
+    .nav__item--form
+    {
+        flex: 1 1 100%;
+        text-align: center;
+        order: 1;
+    }
+
+    .header
+    {
+        padding: 0 var(--padding-xxl);
+    }
+}
