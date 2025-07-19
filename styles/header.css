@@ -73,3 +73,30 @@
         padding: 0 var(--padding-xxl);
     }
 }
+
+/* versão celular */
+@media screen and (max-width: 768px)
+{
+    .nav__link
+    {
+        display: none;
+    }
+
+    .menu__toggle
+    {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header
+    {
+        padding: 0 var(--padding-m);
+    }
+
+    .menu__toggle--icon
+    {
+        background-color: transparent;
+        border: none;
+    }
+}
+
