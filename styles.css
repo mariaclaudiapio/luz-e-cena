@@ -1,0 +1,33 @@
+/* Reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Variáveis */
+:root
+{
+    --marinho: #1E1E1E;
+    --marinho-hover: #252530;
+    --grafite: #464646;
+    --cinza-medio: #A6A6A6;
+    --cinza: #EFEFEF;
+    --branco: #FFFFFF;
+    --amarelo: #F5D010;
+    --roxo: #6F99FF;
+    --lilas: #CCDBFF;
+    --verde: #C3FF95;
+    --coral: #ED7562;
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Dela Gothic One", sans-serif;    
+}
+
+/* Estilos gerais */
+.projeto
+{
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+}
