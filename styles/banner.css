@@ -37,3 +37,21 @@
 {
     color: var(--cor-texto-destaque);
 }
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .banner
+    {
+        height: 30vh;
+        padding-left: 10vw;
+    }
+
+    .banner__titulo,
+    .banner__titulo-destaque
+    {
+        font-size: 3rem;
+        line-height: 1.2em;
+        width: 60%;
+    }
+}
