@@ -55,3 +55,22 @@
         width: 60%;
     }
 }
+
+/* versão celular */
+@media screen and (max-width: 768px)
+{
+    .banner
+    {
+        height: 25vh;
+        padding-left: 5vw;
+    }
+
+    .banner__titulo,
+    .banner__titulo-destaque
+    {
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .banner__titulo-destaque
+}
