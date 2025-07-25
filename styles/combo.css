@@ -57,4 +57,10 @@
     {
         padding: 0 var(--padding-m);
     }
+
+    .combo__titulo,
+    .combo__titulo-destaque
+    {
+        font-size: 2rem;
+    }
 }
