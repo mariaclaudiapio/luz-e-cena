@@ -6,6 +6,7 @@
     list-style-type: none;
     align-items: flex-start;
     margin: var(--padding-xs);
+    justify-content: center;
 }
 
 .filme-list__item

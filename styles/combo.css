@@ -33,3 +33,19 @@
     justify-content: center;
     height: 100%;
 }
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .combo__container
+    {
+        padding: 0 var(--padding-xxl);
+    }
+
+    .combo__titulo,
+    .combo__titulo-destaque
+    {
+        font-size: var(--font-size-xl);
+        line-height: 120%;
+    }
+}
