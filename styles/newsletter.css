@@ -54,3 +54,13 @@
     border: none;
     border-radius: 0.5rem;    
 }
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .newsletter
+    {
+        padding: var(--padding-xs) var(--padding-m);
+    }
+}
+
