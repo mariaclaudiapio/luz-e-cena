@@ -64,3 +64,24 @@
     font-family: var(--fonte-texto);
     color: var(--cor-de-fundo-footer);
 }
+
+/* Versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .footer
+    {
+        padding: var(--padding-l);
+    }
+    
+    .footer__column-logo
+    {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .footer__column
+    {
+        flex-basis: 30%;        
+    }
+}
